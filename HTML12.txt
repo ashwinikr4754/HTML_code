@@ -1,0 +1,90 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Register Form</title>
+</head>
+<body>
+ <form>
+  <table>
+   <tr>
+    <td>First Name :</td>
+    <td><input type="text"></td>
+   </tr>
+    <tr>
+    <td>Last Name :</td>
+    <td><input type="text"></td>
+   </tr>
+   <tr>
+    <td>Date of birth :</td>
+    <td><input type="text"></td>
+   </tr>
+   <tr>
+    <td>Password :</td>
+    <td><input type="password"></td>
+   </tr>
+   <tr>
+    <td>Gender :</td>
+    <td>
+     <input type="radio" name="Gender"> Male
+     <input type="radio" name="Gender"> Female
+    </td>
+   </tr>
+   <tr>
+    <td>Email :</td>
+    <td><input type="email"></td>
+   </tr>
+   <tr>
+    <td>Identity proof no. :</td>
+    <td>
+     <select>
+      <option>Aadharcard</option>
+       <option>Pancard</option>
+        <option>Driving License</option>
+         <option>Voter Id</option>
+     </select>
+     <input type="Identity proof no.">
+    </td>
+   </tr>
+    <td>Phone no :</td>
+    <td>
+     <select>
+      <option>91</option>
+     
+     </select>
+     <input type="phone">
+    </td>
+   </tr>
+    </tr>
+    <td>Degree :</td>
+    <td>
+     <select>
+       <option>None</option>
+      <option>Bachelor of Engineering</option>
+       <option>Bachelor of Technology</option>
+     </select>
+    
+    </td>
+   </tr>
+    </tr>
+    <td>Branch :</td>
+    <td>
+     <select>
+     <option>None</option>
+      <option>Computer Science  </option>
+      <option>Electronics and Communication </option>
+      <option>Mechanical Engineering</option>
+      <option>Civil Engineering</option>
+      
+     
+     </select>
+     
+    </td>
+   </tr>
+   <tr>
+    <td><input type="submit" value="Submit"></td>
+   </tr>
+  </table>
+ </form>
+</body>
+</html>
